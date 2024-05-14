@@ -1,0 +1,157 @@
+
+ul{
+	list-style-type: none;
+}
+.menu{
+	
+}
+nav{
+	display: flex;
+	justify-content: center;
+	height:113;
+	align-items:center;
+}
+main {
+	width: 1300px;
+	margin: 0 auto;
+}
+h1 span{
+	background-color:white;
+	border: 3px solid black;
+	border-radius:25%;
+	justify-content:space-around;
+}
+.history{
+	margin-top:50px;
+	display:flex;
+	justify-content: space-between;
+}
+
+.history h2{
+	background-color:orange;
+	font-size: 20px;
+	border-radius:20px;
+	text-align:center;
+	padding:10px;
+	
+}
+.history p{
+	height:400px;
+	width:500px;
+	justify-content:flex-start;
+	color:black;
+	font-size: 20px;
+	border-radius:50px;
+	text-align:center;
+	background-color:gray;
+	padding:10px;
+}
+
+.history img{
+	height:523px;
+	width:500px;
+	justify-content:flex-end;
+}
+
+.history_2{
+	display: flex;
+	justify-content:flex-end;
+	display:flex;
+	margin-top:35px;
+}
+
+}
+.history_2 h3{
+	background-color:orange;
+	font-size: 20px;
+	border-radius:20px;
+	text-align:center;
+	padding:10px;
+}
+.history_2 p{
+	font-size: 20px;
+	border-radius:50px;
+	background-color:gray;
+	text-align:center;
+	background-color:gray;
+	padding:10px;
+	
+}
+body{
+	background-color:white;
+}
+section{
+	justify-content: space-between;
+	display:flex;
+	margin:0 auto;
+	margin-top:30px;
+}
+.new{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+.new h2{
+	margin-top:87px;
+	margin-bottom:40px;
+}
+.text-flex{
+	display:flex;
+	width:1101px;
+	justify-content: space-between;
+}
+.text{
+	width:560px;
+}
+.text p{
+	margin-bottom:30px;
+}
+.content {
+	height:600px;
+	width:900px;
+	padding: 80px 160px 70px 160px;
+	background: url("img/last.jpeg");
+	color: #000000;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.content div {
+	width: 440px;
+	margin-bottom: 50px;
+	color:white;
+}
+
+.content div span {
+	font-weight: bold;
+}
+
+.content h2 {
+	font-family: Courier New;
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+.content p {
+	margin-top: 37px;
+}
+
+.content ul li {
+	margin-top: 25px;
+	margin-left: 30px;
+	position:relative;
+}
+.content ul li:before{
+	content:'';
+	background-color:FFCB06;
+	width:8px;
+	height:8px;
+	position:absolute;
+	left:-30px;
+	top: 5px;
+	border-radius: 50%;	
+}
+
+	
